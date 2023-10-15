@@ -1,0 +1,12 @@
+com\policybazaar\basepage\BasePageUi.class
+com\policybazaar\utils\ReadExcelData.class
+com\policybazaar\basepage\BasePageClass.class
+com\policybazaar\pages\TravelInsurancePage.class
+com\policybazaar\utils\ConfigReader.class
+com\policybazaar\pages\PolicybazaarHomePage.class
+com\policybazaar\utils\TestDataProvider.class
+com\policybazaar\pages\CarInsuranceDetailsPage.class
+com\policybazaar\pages\CarInsurancePage.class
+com\policybazaar\utils\ExtentReportManager.class
+com\policybazaar\pages\TravelInsurancePlansDisplayPage.class
+com\policybazaar\utils\DateUtil.class
