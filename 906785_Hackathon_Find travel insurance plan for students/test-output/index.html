@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>G:\CTS\906785_Hackathon_Find travel insurance plan for students\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 7 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.policybazaar.testcases.DisplayThreeLowestTravelPlans" class="method navigator-link" hash-for-method="displayThreeLowestTravelInsurancePlans({Traveller Mail=koushik99@gmail.com, Traveller Name=Mr. Koushik, Age2=22, Traveller Phone=9876543210...)">displayThreeLowestTravelInsurancePlans({Traveller Mail=koushik99@gmail.com, Traveller Name=Mr. Koushik, Age2=22, Traveller Phone=9876543210...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.policybazaar.testcases.DisplayThreeLowestTravelPlans" class="method navigator-link" hash-for-method="displayThreeLowestTravelInsurancePlans({Traveller Mail=aliya912@gmail.com, Traveller Name=Ms. Aliya, Age2=22, Traveller Phone=9876543210, A...)">displayThreeLowestTravelInsurancePlans({Traveller Mail=aliya912@gmail.com, Traveller Name=Ms. Aliya, Age2=22, Traveller Phone=9876543210, A...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.policybazaar.testcases.DisplayThreeLowestTravelPlans" class="method navigator-link" hash-for-method="displayThreeLowestTravelInsurancePlans({Traveller Mail=suresh123@gmail.com, Traveller Name=Mr. Suresh, Age2=21, Traveller Phone=9879876565,...)">displayThreeLowestTravelInsurancePlans({Traveller Mail=suresh123@gmail.com, Traveller Name=Mr. Suresh, Age2=21, Traveller Phone=9879876565,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.policybazaar.testcases.GetErrorInCarInsuranceForm" class="method navigator-link" hash-for-method="getErrorMeaasageForInvalidDetails({Owner Name=Rama Raju, Owner Phone=98765, Fuel Variant=Petrol, RTO &amp; City Name=TN02, Owner Email=ram...)">getErrorMeaasageForInvalidDetails({Owner Name=Rama Raju, Owner Phone=98765, Fuel Variant=Petrol, RTO & City Name=TN02, Owner Email=ram...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.policybazaar.testcases.GetErrorInCarInsuranceForm" class="method navigator-link" hash-for-method="getErrorMeaasageForInvalidDetails({Owner Name=sri, Owner Phone=9.87657E+11, Fuel Variant=Petrol, RTO &amp; City Name=DL1, Owner Email=sun@...)">getErrorMeaasageForInvalidDetails({Owner Name=sri, Owner Phone=9.87657E+11, Fuel Variant=Petrol, RTO & City Name=DL1, Owner Email=sun@...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.policybazaar.testcases.GetErrorInCarInsuranceForm" class="method navigator-link" hash-for-method="getErrorMeaasageForInvalidDetails({Owner Name=Rama Krishna, Owner Phone=9876543210, Fuel Variant=Petrol, RTO &amp; City Name=MH01, Owner E...)">getErrorMeaasageForInvalidDetails({Owner Name=Rama Krishna, Owner Phone=9876543210, Fuel Variant=Petrol, RTO & City Name=MH01, Owner E...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.policybazaar.testcases.GetHealthInsuranceNameList" class="method navigator-link" hash-for-method="getInsuranceNameList">getInsuranceNameList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.policybazaar.testcases.GetHealthInsuranceNameList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getInsuranceNameList">
+                  </a> <!-- getInsuranceNameList -->
+                  <span class="method-name">getInsuranceNameList</span>
+                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JAPR9I4&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+	at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at com.policybazaar.pages.PolicybazaarHomePage.getHealthInsuranceList(PolicybazaarHomePage.java:67)
+	at com.policybazaar.testcases.GetHealthInsuranceNameList.getInsuranceNameList(GetHealthInsuranceNameList.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JAPR9I4&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+		at org.openqa.selenium.json.Json.toJson(Json.java:44)
+		... 37 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+	... 49 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/cclink/div[4]/div[1]/div/ul/li[2]/a&quot;}
+  (Session info: chrome=118.0.5993.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JAPR9I4&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\KAVINA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8eb1ebf7d51511fb97155f821da1dcd
+*** Element info: {Using=xpath, value=/html/body/cclink/div[4]/div[1]/div/ul/li[2]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+	... 54 more
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.policybazaar.testcases.DisplayThreeLowestTravelPlans</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayThreeLowestTravelInsurancePlans({Traveller Mail=koushik99@gmail.com, Traveller Name=Mr. Koushik, Age2=22, Traveller Phone=9876543210...)">
+                  </a> <!-- displayThreeLowestTravelInsurancePlans({Traveller Mail=koushik99@gmail.com, Traveller Name=Mr. Koushik, Age2=22, Traveller Phone=9876543210...) -->
+                  <span class="method-name">displayThreeLowestTravelInsurancePlans</span>
+                  <span class="parameters">({Traveller Mail=koushik99@gmail.com, Traveller Name=Mr. Koushik, Age2=22, Traveller Phone=9876543210, Age1=21, Country=Germany, TestCaseID=TestCase1})</span>
+                  <div class="stack-trace">java.lang.AssertionError: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JAPR9I4&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at com.policybazaar.basepage.BasePageUi.reportFail(BasePageUi.java:60)
+	at com.policybazaar.pages.PolicybazaarHomePage.clickTravelInsurance(PolicybazaarHomePage.java:57)
+	at com.policybazaar.testcases.DisplayThreeLowestTravelPlans.displayThreeLowestTravelInsurancePlans(DisplayThreeLowestTravelPlans.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayThreeLowestTravelInsurancePlans({Traveller Mail=aliya912@gmail.com, Traveller Name=Ms. Aliya, Age2=22, Traveller Phone=9876543210, A...)">
+                  </a> <!-- displayThreeLowestTravelInsurancePlans({Traveller Mail=aliya912@gmail.com, Traveller Name=Ms. Aliya, Age2=22, Traveller Phone=9876543210, A...) -->
+                  <span class="method-name">displayThreeLowestTravelInsurancePlans</span>
+                  <span class="parameters">({Traveller Mail=aliya912@gmail.com, Traveller Name=Ms. Aliya, Age2=22, Traveller Phone=9876543210, Age1=21, Country=Spain, TestCaseID=TestCase3})</span>
+                  <div class="stack-trace">java.lang.AssertionError: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JAPR9I4&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at com.policybazaar.basepage.BasePageUi.reportFail(BasePageUi.java:60)
+	at com.policybazaar.pages.PolicybazaarHomePage.clickTravelInsurance(PolicybazaarHomePage.java:57)
+	at com.policybazaar.testcases.DisplayThreeLowestTravelPlans.displayThreeLowestTravelInsurancePlans(DisplayThreeLowestTravelPlans.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayThreeLowestTravelInsurancePlans({Traveller Mail=suresh123@gmail.com, Traveller Name=Mr. Suresh, Age2=21, Traveller Phone=9879876565,...)">
+                  </a> <!-- displayThreeLowestTravelInsurancePlans({Traveller Mail=suresh123@gmail.com, Traveller Name=Mr. Suresh, Age2=21, Traveller Phone=9879876565,...) -->
+                  <span class="method-name">displayThreeLowestTravelInsurancePlans</span>
+                  <span class="parameters">({Traveller Mail=suresh123@gmail.com, Traveller Name=Mr. Suresh, Age2=21, Traveller Phone=9879876565, Age1=22, Country=France, TestCaseID=TestCase2})</span>
+                  <div class="stack-trace">java.lang.AssertionError: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JAPR9I4&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at com.policybazaar.basepage.BasePageUi.reportFail(BasePageUi.java:60)
+	at com.policybazaar.pages.PolicybazaarHomePage.clickTravelInsurance(PolicybazaarHomePage.java:57)
+	at com.policybazaar.testcases.DisplayThreeLowestTravelPlans.displayThreeLowestTravelInsurancePlans(DisplayThreeLowestTravelPlans.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.policybazaar.testcases.GetErrorInCarInsuranceForm</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getErrorMeaasageForInvalidDetails({Owner Name=Rama Raju, Owner Phone=98765, Fuel Variant=Petrol, RTO &amp; City Name=TN02, Owner Email=ram...)">
+                  </a> <!-- getErrorMeaasageForInvalidDetails({Owner Name=Rama Raju, Owner Phone=98765, Fuel Variant=Petrol, RTO & City Name=TN02, Owner Email=ram...) -->
+                  <span class="method-name">getErrorMeaasageForInvalidDetails</span>
+                  <span class="parameters">({Owner Name=Rama Raju, Owner Phone=98765, Fuel Variant=Petrol, RTO & City Name=TN02, Owner Email=ram@gmail.com, TestCaseID=TestCase2, Model Variant=1.6, Car Name=HONDA })</span>
+                  <div class="stack-trace">java.lang.AssertionError: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JAPR9I4&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at com.policybazaar.basepage.BasePageUi.reportFail(BasePageUi.java:60)
+	at com.policybazaar.pages.PolicybazaarHomePage.clickCarInsurance(PolicybazaarHomePage.java:94)
+	at com.policybazaar.testcases.GetErrorInCarInsuranceForm.getErrorMeaasageForInvalidDetails(GetErrorInCarInsuranceForm.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getErrorMeaasageForInvalidDetails({Owner Name=sri, Owner Phone=9.87657E+11, Fuel Variant=Petrol, RTO &amp; City Name=DL1, Owner Email=sun@...)">
+                  </a> <!-- getErrorMeaasageForInvalidDetails({Owner Name=sri, Owner Phone=9.87657E+11, Fuel Variant=Petrol, RTO & City Name=DL1, Owner Email=sun@...) -->
+                  <span class="method-name">getErrorMeaasageForInvalidDetails</span>
+                  <span class="parameters">({Owner Name=sri, Owner Phone=9.87657E+11, Fuel Variant=Petrol, RTO & City Name=DL1, Owner Email=sun@/gmail.co, TestCaseID=TestCase3, Model Variant=2.3, Car Name=HONDA})</span>
+                  <div class="stack-trace">java.lang.AssertionError: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JAPR9I4&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at com.policybazaar.basepage.BasePageUi.reportFail(BasePageUi.java:60)
+	at com.policybazaar.pages.PolicybazaarHomePage.clickCarInsurance(PolicybazaarHomePage.java:94)
+	at com.policybazaar.testcases.GetErrorInCarInsuranceForm.getErrorMeaasageForInvalidDetails(GetErrorInCarInsuranceForm.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getErrorMeaasageForInvalidDetails({Owner Name=Rama Krishna, Owner Phone=9876543210, Fuel Variant=Petrol, RTO &amp; City Name=MH01, Owner E...)">
+                  </a> <!-- getErrorMeaasageForInvalidDetails({Owner Name=Rama Krishna, Owner Phone=9876543210, Fuel Variant=Petrol, RTO & City Name=MH01, Owner E...) -->
+                  <span class="method-name">getErrorMeaasageForInvalidDetails</span>
+                  <span class="parameters">({Owner Name=Rama Krishna, Owner Phone=9876543210, Fuel Variant=Petrol, RTO & City Name=MH01, Owner Email=ramakrish.com, TestCaseID=TestCase1, Model Variant=2.4, Car Name=HONDA })</span>
+                  <div class="stack-trace">java.lang.AssertionError: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JAPR9I4&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at com.policybazaar.basepage.BasePageUi.reportFail(BasePageUi.java:60)
+	at com.policybazaar.pages.PolicybazaarHomePage.clickCarInsurance(PolicybazaarHomePage.java:94)
+	at com.policybazaar.testcases.GetErrorInCarInsuranceForm.getErrorMeaasageForInvalidDetails(GetErrorInCarInsuranceForm.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">G:\CTS\906785_Hackathon_Find travel insurance plan for students\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;Smoke&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.policybazaar.testcases.DisplayThreeLowestTravelPlans&quot;/&gt;
+      &lt;class name=&quot;com.policybazaar.testcases.GetErrorInCarInsuranceForm&quot;/&gt;
+      &lt;class name=&quot;com.policybazaar.testcases.GetHealthInsuranceNameList&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">displayThreeLowestTravelInsurancePlans</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getErrorMeaasageForInvalidDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getInsuranceNameList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getErrorMeaasageForInvalidDetails')
+data.setCell(0, 2, 'com.policybazaar.testcases.GetErrorInCarInsuranceForm')
+data.setCell(0, 3, 122158);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getErrorMeaasageForInvalidDetails')
+data.setCell(1, 2, 'com.policybazaar.testcases.GetErrorInCarInsuranceForm')
+data.setCell(1, 3, 110897);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getErrorMeaasageForInvalidDetails')
+data.setCell(2, 2, 'com.policybazaar.testcases.GetErrorInCarInsuranceForm')
+data.setCell(2, 3, 103857);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getInsuranceNameList')
+data.setCell(3, 2, 'com.policybazaar.testcases.GetHealthInsuranceNameList')
+data.setCell(3, 3, 91361);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'displayThreeLowestTravelInsurancePlans')
+data.setCell(4, 2, 'com.policybazaar.testcases.DisplayThreeLowestTravelPlans')
+data.setCell(4, 3, 81620);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'displayThreeLowestTravelInsurancePlans')
+data.setCell(5, 2, 'com.policybazaar.testcases.DisplayThreeLowestTravelPlans')
+data.setCell(5, 3, 81503);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'displayThreeLowestTravelInsurancePlans')
+data.setCell(6, 2, 'com.policybazaar.testcases.DisplayThreeLowestTravelPlans')
+data.setCell(6, 3, 70104);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.policybazaar.testcases.DisplayThreeLowestTravelPlans</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clickTravelInsurance</span>
+                <br/>
+                <span class="ignored-method-name">validateHomePage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.policybazaar.testcases.GetErrorInCarInsuranceForm</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clickCarInsurance</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.policybazaar.testcases.DisplayThreeLowestTravelPlans</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">displayThreeLowestTravelInsurancePlans({Traveller Mail=koushik99@gmail.com, Traveller Name=Mr. Koushik, Age2=22, Traveller Phone=9876543210...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">81686 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">displayThreeLowestTravelInsurancePlans({Traveller Mail=suresh123@gmail.com, Traveller Name=Mr. Suresh, Age2=21, Traveller Phone=9879876565,...)</span>
+                <span class="method-start">82958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">164463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">displayThreeLowestTravelInsurancePlans({Traveller Mail=aliya912@gmail.com, Traveller Name=Ms. Aliya, Age2=22, Traveller Phone=9876543210, A...)</span>
+                <span class="method-start">164671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">234800 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.policybazaar.testcases.GetErrorInCarInsuranceForm</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getErrorMeaasageForInvalidDetails({Owner Name=Rama Krishna, Owner Phone=9876543210, Fuel Variant=Petrol, RTO & City Name=MH01, Owner E...)</span>
+                <span class="method-start">235774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">346697 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getErrorMeaasageForInvalidDetails({Owner Name=Rama Raju, Owner Phone=98765, Fuel Variant=Petrol, RTO & City Name=TN02, Owner Email=ram...)</span>
+                <span class="method-start">347796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">469963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getErrorMeaasageForInvalidDetails({Owner Name=sri, Owner Phone=9.87657E+11, Fuel Variant=Petrol, RTO & City Name=DL1, Owner Email=sun@...)</span>
+                <span class="method-start">470375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">574890 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.policybazaar.testcases.GetHealthInsuranceNameList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getInsuranceNameList</span>
+                <span class="method-start">575797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">667718 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
