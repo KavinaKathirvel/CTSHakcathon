@@ -1,0 +1,14 @@
+1.Run testng.xml file to get three test reports on single report.
+
+2.test classes are present in src/test/java
+
+3.Reports will be created in the test-report folder, and screenshots on screenshots folder
+(Screenshot is added on the report as well on failure of methods)
+
+4.Jenkins console output is provided in the jenkins-build folder
+
+5.Smoke testing and Regression testing can be done through their respective xml files.
+
+6.test-data folder consists of the excel and properties file to read the input data
+
+7.Drivers are present in the browserdrivers folder 
